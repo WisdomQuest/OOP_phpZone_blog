@@ -4,102 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="739f3423-4460-431e-840a-b9cb87b425da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/OOPphpzone.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/7.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/8.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/9.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cli.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Cli/AbstractCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Cli/Minusator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Cli/Summator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Cli/TestCron.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Controllers/AbstractController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Controllers/Api/ArticlesApiController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Controllers/ArticlesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Controllers/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Controllers/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Exceptions/ActivateExaption.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Exceptions/ArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Exceptions/CliException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Exceptions/DbException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Exceptions/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Exceptions/NotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Exceptions/NotRightException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Exceptions/UnauthorizedException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Models/ActiveRecordEntity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Models/Articles/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Models/Comments/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Models/Users/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Models/Users/UserActivationService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Models/Users/UsersAuthService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Services/Db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/Services/EmailSender.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyProject/View/View.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes_api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/articles/add.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/articles/comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/articles/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/articles/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/errors/401.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/errors/403.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/errors/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/errors/500.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/mail/userActivation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/hello.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/nonexistensCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/reLogin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/signUp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/signUpSuccessful.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/users/successfulActivation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/erusev/parsedown/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/erusev/parsedown/Parsedown.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/erusev/parsedown/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/erusev/parsedown/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/api/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/api/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/styles.css" afterDir="false" />
+    <list default="true" id="739f3423-4460-431e-840a-b9cb87b425da" name="Default Changelist" comment="1">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +28,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="PhpDebugGeneral" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
   <component name="PhpServers">
     <servers>
@@ -137,6 +47,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2RSQjD79KhbT0J2HNjWbnweBfZF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -151,7 +64,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -255,11 +168,44 @@
       <workItem from="1695358184535" duration="775000" />
       <workItem from="1695360646183" duration="314000" />
       <workItem from="1695451797150" duration="82000" />
+      <workItem from="1695452643004" duration="980000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1695452693765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695452693765</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1">
+      <option name="closed" value="true" />
+      <created>1695452846829</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695452846829</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
