@@ -83,7 +83,7 @@ class ArticlesController extends AbstractController
                 return;
             }
 
-            header('Location: /www/articles/' . $article->getId(), true, 302);
+            header('Location: /articles/' . $article->getId(), true, 302);
             exit();
         }
 
@@ -114,7 +114,7 @@ class ArticlesController extends AbstractController
                 return;
             }
 
-            header('Location: /www/articles/' . $article->getId(), true, 302);
+            header('Location: /articles/' . $article->getId(), true, 302);
             exit();
         }
 
@@ -152,7 +152,7 @@ class ArticlesController extends AbstractController
 
         if (!empty($_POST)) {
 
-            header('Location: /www/articles/' . $article->getId() . '#comment' . $comment->getId(), true, 302);
+            header('Location: /articles/' . $article->getId() . '#comment' . $comment->getId(), true, 302);
             exit;
         }
 
@@ -173,7 +173,7 @@ class ArticlesController extends AbstractController
                 $this->view->renderHtml('articles/comments.php', ['commentsId' => $commentsId, 'error' => $e->getMessage()]);
                 return;
             }
-            header('Location: /www/comments/' . $comments->getId() . '/edit', true, 302);
+            header('Location: /comments/' . $comments->getId() . '/edit', true, 302);
             exit;
         }
 

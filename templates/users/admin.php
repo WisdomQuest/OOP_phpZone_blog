@@ -22,7 +22,7 @@
 $article = array_slice($article, -2, );
 foreach ($article as $artic) {
     echo $artic->shortLink();?>
-    <a href="/www/articles/<?= $artic->getId() ?>/edit">редактирование</a>  <br>
+    <a href="/articles/<?= $artic->getId() ?>/edit">редактирование</a>  <br>
 
 <?php }
 ?>

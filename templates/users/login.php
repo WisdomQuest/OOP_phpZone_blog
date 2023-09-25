@@ -7,7 +7,7 @@
 
 
 
-    <form action="/www/users/login" method="post">
+    <form action="/users/login" method="post">
         <label>Email <input type="text" name="email" value="<?= $_POST['email'] ?? '' ?>"></label>
         <br><br>
         <label>Пароль <input type="password" name="password" value="<?= $_POST['password'] ?? '' ?>"></label>

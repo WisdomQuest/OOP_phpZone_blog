@@ -4,7 +4,7 @@
 <p><?= $article->getParsedText() ?></p>
 <p>Автор: <?= $article->getAuthor()->getNickname() ?></p>
 <?php if ($user !== null && $user->isAdmin()): ?>
-    <a href="/www/articles/<?= $article->getId() ?>/edit">редактирование</a>
+    <a href="/articles/<?= $article->getId() ?>/edit">редактирование</a>
 <?php endif; ?>
 <hr>
 коментарии:
@@ -17,7 +17,7 @@
             echo $com . '<br>';
             if ($user !== null){
             if ($user->getId() == $value->getAuthorId() || $user->isAdmin()): ?>
-                <a href="/www/comments/<?= $value->getId() ?>/edit">редактирование</a><br>
+                <a href="/comments/<?= $value->getId() ?>/edit">редактирование</a><br>
             <?php endif;
             }
 
@@ -34,7 +34,7 @@
 
 <?php if ($user !== null): ?>
 
-    <form action="/www/articles/<?= $article->getId() ?>/comments" method="post">
+    <form action="/articles/<?= $article->getId() ?>/comments" method="post">
 
         <label for="text">добавить комментарии</label><br>
         <textarea name="comments" id="text" rows="3" cols="50"></textarea><br>

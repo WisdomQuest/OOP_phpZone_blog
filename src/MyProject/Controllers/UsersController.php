@@ -96,7 +96,7 @@ class UsersController extends AbstractController
             try {
                 $user = User::login($_POST);
                 UsersAuthService::createToken($user);
-                header('Location: /www/');
+                header('Location: /');
                 exit();
             } catch (InvalidArgumentException $e) {
                 $this->view->renderHtml('users/login.php', ['error' => $e->getMessage()]);
@@ -116,7 +116,7 @@ class UsersController extends AbstractController
     public static function reLogin()
     {
         setcookie('token', '', -1, '/', '', false, true);
-        header('Location: /www/');
+        header('Location: /');
     }
 
     public function admin()

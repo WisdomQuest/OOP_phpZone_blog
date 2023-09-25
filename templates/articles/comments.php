@@ -11,7 +11,7 @@ include __DIR__ . '/../header.php';
 <?= $comment->getText(); ?>
 <hr>
 
-<form action="/www/comments/<?= $commentsId ?>/edit" method="post">
+<form action="/comments/<?= $commentsId ?>/edit" method="post">
 
     <label for="text">редактировать комментарий</label><br>
     <textarea name="comments" id="text" rows="3" cols="50"><?= $comment->getText() ?></textarea><br>
