@@ -12,14 +12,15 @@
 <?php endforeach; ?>
 
 
-<!--<div style="text-align: center">-->
-<!--    --><?php //for ($pageNum = 1; $pageNum <= $pagesCount; $pageNum++): ?>
-<!--        --><?php //if ($currentPageNum === $pageNum): ?>
-<!--            <b>--><?php //= $pageNum ?><!--</b>-->
-<!--        --><?php //else: ?>
-<!--            <a href="/www/--><?php //= $pageNum === 1 ? '' : $pageNum ?><!--">--><?php //= $pageNum ?><!--</a>-->
-<!--        --><?php //endif; ?>
-<!--    --><?php //endfor; ?>
+<div style="text-align: center">
+    <?php for ($pageNum = 1; $pageNum <= $pagesCount; $pageNum++): ?>
+        <?php if ($currentPageNum === $pageNum): ?>
+            <b><?= $pageNum ?></b>
+        <?php else: ?>
+            <a href="/<?= $pageNum === 1 ? '' : $pageNum ?>"><?= $pageNum ?></a>
+        <?php endif; ?>
+    <?php endfor; ?>
+</div>
 
     <div style="text-align: center">
         <?php if ($previousPageLink !== null): ?>
@@ -39,4 +40,3 @@
     <?php include __DIR__ . '/../footer.php'; ?>
 
 
-<!--</div>-->

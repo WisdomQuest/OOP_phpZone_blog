@@ -7,6 +7,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
+$startTime = microtime(true);
 
 //require __DIR__ . '/../src/MyProject/Models/Articles/Article.php';
 //require __DIR__. '/../src/MyProject/Models/Users/User.php';
@@ -89,7 +90,8 @@ try {
     $view->renderHtml('403.php', ['error' => $e->getMessage()], 403);
 }
 
-
+$endTime = microtime(true);
+printf('<div style="text-align: center; padding: 5px">Время генерации страницы: %f</div>', $endTime - $startTime );
 
 
 //var_dump(\MyProject\Services\Db::getInstancesCount());
