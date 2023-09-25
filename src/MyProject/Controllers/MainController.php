@@ -60,6 +60,7 @@ class MainController extends AbstractController
     public function page(int $pageNum)
     {
         $itemPerPage =ActiveRecordEntity::itemPerPage();
+        $pageCount =Article::getPagesCount($itemPerPage);
         if ($pageNum > Article::getPagesCount($itemPerPage)) {
 
             $this->view->renderHtml('errors/404.php', [], 404);
@@ -69,10 +70,21 @@ class MainController extends AbstractController
                 'articles' => Article::getPage($pageNum, $itemPerPage),
                 'pagesCount' => Article::getPagesCount($itemPerPage),
                 'currentPageNum' => $pageNum,
+                'previousPageLink' => $pageNum > 1
+                ? '/'. ($pageNum -1)
+                    : null,
+                'nextPageLink' => $pageNum < $pageCount
+                ? '/' . ($pageNum +1)
+                    :null
 
             ]);
         }
     }
 
+//    public function page(int $pageNum)
+//    {
+//        $pagesCount = Article::getPagesCount(5);
+//
+//    }
 
 }
