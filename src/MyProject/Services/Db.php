@@ -37,7 +37,7 @@ class Db
         $sth = $this->pdo->prepare($sql);
         $result = $sth->execute($params);
 
-        if (false===$result) {
+        if (false === $result) {
             return null;
         }
         return $sth->fetchAll(\PDO::FETCH_CLASS, $className);
@@ -50,10 +50,10 @@ class Db
 
 
 //обращение к базе данных
-    public static function getInstanse():self
+    public static function getInstanse(): self
     {
-        if (self::$instance===null) {
-            self::$instance= new self();
+        if (self::$instance === null) {
+            self::$instance = new self();
         }
 
         return self::$instance;
@@ -65,11 +65,11 @@ class Db
     //Для того, чтобы получить id последней вставленной записи в базе (в рамках текущей сессии работы с БД)
     // можно использовать метод lastInsertId() у объекта PDO
 
-        //PDO::lastInsertId — Возвращает ID последней вставленной строки или значение последовательности
+    //PDO::lastInsertId — Возвращает ID последней вставленной строки или значение последовательности
 
     public function getLastInsertId(): int
     {
-        return (int) $this->pdo->lastInsertId();
+        return (int)$this->pdo->lastInsertId();
     }
 
 }
